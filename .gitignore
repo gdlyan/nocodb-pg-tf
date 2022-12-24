@@ -1,0 +1,9 @@
+.*/
+*.tfstate*
+*.tfvars
+.terraform.lock.hcl
+*.swp
+tmp/
+*certs/
+*nginx/
+*.key
