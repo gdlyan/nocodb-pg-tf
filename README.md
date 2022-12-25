@@ -51,7 +51,7 @@ So, the best way to learn is to follow the instructions in the readme to make yo
 - a similarly simple command to get the infrastructre and apps up and running as you need them again with all the data and settings persisted 
 - command line recipes to backup and restore your data from snapshots, hence to prevent data loss 
 - other useful Terraform, Docker and Yandex Cloud code recipes, tips and tricks that you learn on the way    
-> Under no circumstances should it be used for production though. It is not  adequately secure as we expose pgAdmin to the public as well as we haven't provided any firewall rules to filter malicious traffic. It is not fault tolerant either, as we use preemptible instances that can be deliberately taken back by the cloud provider at their discretion
+> * - Under no circumstances should it be used for production though. It is not  adequately secure as we expose pgAdmin to the public as well as we haven't provided any firewall rules to filter malicious traffic. It is not fault tolerant either, as we use preemptible instances that can be deliberately taken back by the cloud provider at their discretion
 
 ## Architecture diagram
 This is how the architeture would look like after completion of the module [05 Enable Public Access](https://github.com/gdlyan/nocodb-pg-tf/tree/master/05%20Enable%20Public%20Access)
