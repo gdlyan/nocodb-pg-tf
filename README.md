@@ -1,4 +1,4 @@
-# Tutorial on basic NocoDB stack provisioning @ Yandex Cloud
+# How to provision a basic NocoDB stack on Yandex Cloud using Terraform
 This directory offers step-by-step instructions for configuring Terraform to deploy a database web application, such as [NocoDB](https://www.nocodb.com/), on a group of virtual machines in Yandex Cloud and make this app publicly accessible
 
 ## Purpose
