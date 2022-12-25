@@ -1,4 +1,4 @@
-# Tutorial on provisioning basic NocoDB stack
+# Tutorial on basic NocoDB stack provisioning @ Yandex Cloud
 This directory offers step-by-step instructions for configuring Terraform to deploy a database web application, such as [NocoDB](https://www.nocodb.com/), on a group of virtual machines in Yandex Cloud and make this app publicly accessible
 
 ## Purpose
@@ -53,7 +53,7 @@ So, the best way to learn is to follow the instructions in the readme to make yo
 - other useful Terraform, Docker and Yandex Cloud code recipes, tips and tricks that you learn on the way    
 
 ## Architecture diagram
-This is how the arhiteture would look like after completion of the module `05 Enable Public Access` of the tutorial
+This is how the architeture would look like after completion of the module [05 Enable Public Access](https://github.com/gdlyan/nocodb-pg-tf/tree/master/05%20Enable%20Public%20Access)
 ```
                           |                                                   
             https://nocodb.{your_domain.tld}
