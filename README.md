@@ -46,12 +46,13 @@ So, the best way to learn is to follow the instructions in the readme to make yo
 ## What you get at the end of the day
 - NocoDB app running on your own domain at https://nocodb.{your_domain.tld}, for example at https://nocodb.johnsmith.gq if you register a `johnsmith.gq` domain with freenom.com
 - pgAdmin app running on https://pgadmin.{your_domain.tld}
-- underlying infrastructure put together in an architecture that is made specifically for demo purposes with a view to minimize cost*
+- underlying infrastructure put together in an architecture that is made specifically for demo purposes with a view to minimize cost [\*]()
 - a straightforward one line command to destroy  all the infrastructure but the data in order to reduce cost charged by the cloud provider
 - a similarly simple command to get the infrastructre and apps up and running as you need them again with all the data and settings persisted 
 - command line recipes to backup and restore your data from snapshots, hence to prevent data loss 
 - other useful Terraform, Docker and Yandex Cloud code recipes, tips and tricks that you learn on the way    
-> * - Under no circumstances should it be used for production though. It is not  adequately secure as we expose pgAdmin to the public as well as we haven't provided any firewall rules to filter malicious traffic. It is not fault tolerant either, as we use preemptible instances that can be deliberately taken back by the cloud provider at their discretion
+> ###### \* Not for production 
+> Under no circumstances should it be used for production as it is though. It is not  adequately secure as we expose pgAdmin to the public as well as we haven't provided any firewall rules to filter malicious traffic. It is not fault tolerant either, as we use preemptible instances that can be deliberately taken back by the cloud provider at their discretion
 
 ## Architecture diagram
 This is how the architeture would look like after completion of the module [05 Enable Public Access](https://github.com/gdlyan/nocodb-pg-tf/tree/master/05%20Enable%20Public%20Access)
