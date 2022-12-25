@@ -46,7 +46,7 @@ So, the best way to learn is to follow the instructions in the readme to make yo
 ## What you get at the end of the day
 - NocoDB app running on your own domain at https://nocodb.{your_domain.tld}, for example at https://nocodb.johnsmith.gq if you register a `johnsmith.gq` domain with freenom.com
 - pgAdmin app running on https://pgadmin.{your_domain.tld}
-- underlying infrastructure put together in an architecture that is made specifically for demo purposes with a view to minimize cost [\*]()
+- underlying infrastructure put together in an architecture that is made specifically for demo purposes with a view to minimize cost [\*](https://github.com/gdlyan/nocodb-pg-tf/blob/master/README.md#-not-for-production)
 - a straightforward one line command to destroy  all the infrastructure but the data in order to reduce cost charged by the cloud provider
 - a similarly simple command to get the infrastructre and apps up and running as you need them again with all the data and settings persisted 
 - command line recipes to backup and restore your data from snapshots, hence to prevent data loss 
